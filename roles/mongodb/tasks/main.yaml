@@ -1,7 +1,4 @@
-- name : configure mongodb
-  hosts: local
-  connection : local
-  roles: 
+
     - name: copy mongodb rep
       ansible.builtin.copy:
        src: mongo.repo
