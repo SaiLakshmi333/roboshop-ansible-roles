@@ -40,3 +40,4 @@
       name: catalogue
       state: restarted
       enabled : yes
+      notify: restart catalogue
