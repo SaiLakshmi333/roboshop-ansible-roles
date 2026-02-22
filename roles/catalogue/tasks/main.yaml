@@ -39,5 +39,5 @@
   ansible.builtin.service:
       name: catalogue
       state: restarted
-      enabled : yes
-      notify: restart catalogue
+      enabled : yes  
+  
