@@ -11,7 +11,8 @@
 
 - name: systemd.yaml
   ansible.builtin.import_role:
-      tasks_from: systemd.yaml
+     name : common
+     tasks_from: systemd.yaml
 
 - name: enable and start nginx
   ansible.builtin.service:
