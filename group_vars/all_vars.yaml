@@ -1,3 +1,13 @@
 ansible_user=ec2-user
 ansible_password=DevOps321
-mongodb_host=
+mongodb_host=mongodb-dev.devopswithsai.online
+redis_host=redis-dev.devopswithsai.online
+catalogue_host=catalogue-dev.devopswithsai.online
+rabbitmq_host=rabbitmq-dev.devopswithsai.online
+mysql_host=mysql-dev.devopswithsai.online
+payment_host=payment-dev.devopswithsai.online
+shipping_host=shipping-dev.devopswithsai.online
+frontend_host=frontend-dev.devopswithsai.online
+roboshop_host=roboshop-dev.devopswithsai.online
+cart_host=cart-dev.devopswithsai.online
+user_host=user-dev.devopswithsai.online
