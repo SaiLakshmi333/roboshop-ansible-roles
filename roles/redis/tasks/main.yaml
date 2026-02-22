@@ -9,10 +9,6 @@
         name : redis 
         state : present
 
-- name: copy the redis config file
-  ansible.builtin.copy:
-        src : redis.conf 
-        dest : /etc/redis/redis.conf
 
 - name: replace the 127 to 0
   ansible.builtin.replace:
